@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App img {
+  height: 15em;
+  padding: 1.5em;
+}
+.App h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+}
+.upgrade {
+  border: 1px solid aqua; /* Adds a visible 2px border with aqua color */
+  padding: 20px;
+  margin-right: 25px;
+  width: 200px;
+  line-height: 0.5;
+  border-radius: 10px; /* Adjust the rounding of the corners */
+  margin: 15px; /* Adds 15px space around the element */
+}
+.upgrade button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: rgba(255,255,255,0.87);
+  cursor: pointer;
+  margin-top: 10px;
+}
+.App button img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+.App button img:active{
+  transform: scale(0.95);
+}
+
+

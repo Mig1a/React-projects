@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.Card button {
+    perspective: 1000px;
+    width: 450px;
+    height: 350px;
+    margin: 20px auto;
+    background-color: aqua;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.move button{
+  margin: 2.5em;
+}
